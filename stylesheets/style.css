@@ -1,0 +1,79 @@
+#picture {
+  width: 60%;
+  height: 350px;
+  margin-right: 20px;
+  margin-left: 120px;
+  border: solid 4px #FF3300;
+
+}
+#ashwin {
+	margin-top: -105px;
+	margin-right: 60px;
+	margin-left: 500px;
+	width: 250px;
+	height: 200px;
+	border-radius: 5px;
+	border: solid 4px black;
+}
+
+
+#Programming-projects {
+	margin-right: 200px;
+	margin-left: 260px;
+	border-radius: 5px;
+	width: 140px;
+	height: 140px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+	background-color: #585858;
+	text-align: center;
+	font-size: 23px;
+	color: white;
+	line-height: 140px;
+}
+#Programming-projects:hover {
+	opacity: 0.9;
+	font-weight: bold;
+	color: black;
+	
+}
+#Co-op-projects {
+	margin-right: -80px;
+	margin-left: -160px;
+	display: inline-block;
+	width: 140px;
+	height: 140px;
+	border-radius: 5px;
+	background-color: #FF3300;
+	text-align: center;
+	color: white;
+	line-height: 140px;
+	font-size: 23px;
+
+}
+#Co-op-projects:hover {
+	opacity: 0.9;
+	font-weight: bold;
+	color: black;
+}
+#University-projects {
+	margin-right: 180px;
+	margin-left: 175px;
+	background-color: #FF0000;
+	display: inline-block;
+	width: 140px;
+	height: 140px;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	line-height: 140px;
+	font-size: 23px;
+}
+#University-projects:hover {
+	opacity: 0.9;
+	font-weight: bold;
+	color: black;
+}
+
+
