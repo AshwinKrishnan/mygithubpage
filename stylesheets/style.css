@@ -219,8 +219,7 @@
 
 #home_1 {
 	position: relative;
-	margin-right: 200px;
-	margin-left: 780px;
+	margin: auto;
 	border-radius: 5px;
 	border: 2px solid black;
 	width: 400px;
@@ -239,8 +238,7 @@
 
 #home_2 {
 	position: relative;
-	margin-right: 200px;
-	margin-left: 260px;
+	margin: auto;
 	border-radius: 5px;
 	border: 2px solid black;
 	width: 400px;
@@ -263,8 +261,7 @@
 
 #home_3 {
 	position: relative;
-	margin-right: 200px;
-	margin-left: 260px;
+	margin: auto;
 	border-radius: 5px;
 	border: 2px solid black;
 	width: 400px;

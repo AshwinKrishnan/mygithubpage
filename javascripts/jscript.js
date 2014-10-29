@@ -4,17 +4,8 @@ $(document).ready(function(){
 	$("#notes_personal").hide();
 	$("#notes_skills").hide();
 	$("#notes_bio").hide();
-	$("#home_1").fadeIn(2000,function(){
-       $(this).animate({"right" : "210px"}, 1000);
-     });  
-
-	$("#home_2").fadeIn(2000,function(){
-       $(this).animate({"left" : "310px"}, 1000);
-     });  
-
-	$("#home_3").fadeIn(2000,function(){
-       $(this).animate({"left" : "310px"}, 1000);
-     });  
+	$(".index").hide().fadeIn(4000);
+	  
 
 	$("#personal").click(function(){
 		$("#notes_personal").slideToggle();
@@ -30,3 +21,5 @@ $(document).ready(function(){
 	
 	});
 });
+
+
