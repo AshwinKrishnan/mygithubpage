@@ -1,21 +1,86 @@
+#main_content p{
+	text-align: center;
+}
+
+#ashwin {
+	display: inline;
+
+	border-radius: 20px;
+	width: 15%;
+}
+
 #picture {
   width: 60%;
   height: 350px;
   margin-right: 20px;
   margin-left: 120px;
   border: solid 4px #FF3300;
-
 }
-#ashwin {
-	margin-top: -105px;
-	margin-right: 60px;
-	margin-left: 500px;
-	width: 250px;
-	height: 200px;
+
+ #notes_personal{
+ 	margin: auto;
 	border-radius: 5px;
-	border: solid 4px black;
+	width: 640px;
+	height: 420px;
+	margin-top: -20px;
+	margin-bottom: -20px;
+	display: block;
+	background-color: white;
+	
+	font-size: 15px;
+	color: black;
+
 }
 
+#notes_personal h1 {
+	font-size: 18px;
+	text-align: center;
+}
+#notes_skills{
+ 	margin: auto;
+	border-radius: 5px;
+	width: 640px;
+	height: 420px;
+	margin-top: -20px;
+	margin-bottom: -20px;
+	display: block;
+	background-color: white;
+	
+	font-size: 15px;
+	color: black;
+
+}
+#notes_skills h1 {
+	font-size: 18px;
+	text-align: center;
+}
+#notes_bio{
+ 	margin: auto;
+	border-radius: 5px;
+	width: 640px;
+	height: 380px;
+	margin-top: -20px;
+	margin-bottom: -20px;
+	display: block;
+	background-color: white;
+	font-size: 15px;
+	color: black;
+
+}
+#notes_bio h1 {
+	font-size: 28px;
+	text-align: center;
+	
+}
+
+#notes_bio span {
+	font-size: 28px;
+	
+}
+#notes_bio  h2 {
+	font-size: 20px;
+	
+}
 
 #Programming-projects {
 	margin-right: 200px;
@@ -75,5 +140,154 @@
 	font-weight: bold;
 	color: black;
 }
+#navbar {
+	width: 800px;
+	height: auto;
+	margin: auto;
+	text-align: center;
+	background-color: inherit;
+	list-style-type: none;
+
+}
+
+#nav li {
+	padding: 0px 50px 0px 0px;
+	display: inline;
+	list-style-type: none;
+
+	color: #fff;
+  	font-size: 24px;
+  	text-align: center;
+  	font-weight: 300px;
+  	background: none;
+  	text-shadow: #111 0px 0px 10px;
+}
+#nav li:hover{
+	font-weight: bold;
+	font-size: 24px;
+	color: white;
+	text-decoration: none;
+}
+
+#personal {
+	margin: auto;
+	border-radius: 5px;
+	width: 640px;
+	height: 80px;
+	margin-top: -5px;
+	margin-bottom: 20px;
+	display: block;
+	background-color: #FF0000;
+	text-align: center;
+	font-size: 23px;
+	color: white;
+	line-height:80px;
+
+}
+#skills {
+	margin: auto;
+	border-radius: 5px;
+	width: 640px;
+	height: 80px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+	background-color: #585858;
+	text-align: center;
+	font-size: 23px;
+	color: white;
+	line-height: 80px;
+
+}
+#bio {
+	margin: auto;
+	border-radius: 5px;
+	width: 640px;
+	height: 80px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+	background-color: #FF3300 ;
+	text-align: center;
+	font-size: 23px;
+	color: white;
+	line-height: 80px;
+}
+#head {
+	text-align: center;
+	font-size: 28px;
+}
+
+#home_1 {
+	position: relative;
+	margin-right: 200px;
+	margin-left: 780px;
+	border-radius: 5px;
+	border: 2px solid black;
+	width: 400px;
+	height: 220px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+	background-color: #585858;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+
+}
 
 
+
+#home_2 {
+	position: relative;
+	margin-right: 200px;
+	margin-left: 260px;
+	border-radius: 5px;
+	border: 2px solid black;
+	width: 400px;
+	height: 220px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+	background-color: #43C6DB;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+
+}
+#home_2 img {
+	
+	display: block;
+	padding-top: 20px;
+	margin: auto;
+}
+
+#home_3 {
+	position: relative;
+	margin-right: 200px;
+	margin-left: 260px;
+	border-radius: 5px;
+	border: 2px solid black;
+	width: 400px;
+	height: 220px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+	background-color: #4CC417;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+
+}
+#home_3 img {
+	padding-top: 20px;
+	display: block;
+	margin: auto;
+
+}
+
+footer h1 {
+	font-size: 15px;
+	text-align: center;
+	color: #f2f2f2;
+}

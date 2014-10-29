@@ -241,13 +241,13 @@ Full-Width Styles
 .outer {
   width: 100%;
 }
-
 .inner {
   position: relative;
-  max-width: 640px;
   padding: 20px 10px;
   margin: 0 auto;
 }
+
+
 
 #header_wrap {
   background: #212121;
@@ -263,34 +263,16 @@ Full-Width Styles
 }
 
 #project_title {
-  margin-right: 20px;
-  margin-left: 180px;
+
+  margin: auto;
   color: #fff;
   font-size: 42px;
+  text-align: center;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
 
 }
 
-#project_tagline {
-  display: inline-block;
-  padding: 43px;
-  color: #fff;
-  font-size: 24px;
-  font-weight: 300;
-  background: none;
-  text-shadow: #111 0px 0px 10px;
-}
-
-#downloads {
-  position: absolute;
-  width: 210px;
-  z-index: 10;
-  bottom: -40px;
-  right: 0;
-  height: 70px;
-  background: url('../images/icon_download.png') no-repeat 0% 90%;
-}
 
 #main_content_wrap {
   background: #f2f2f2;
