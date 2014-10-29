@@ -10,11 +10,13 @@
 }
 
 #picture {
-  width: 60%;
-  height: 350px;
-  margin-right: 20px;
-  margin-left: 120px;
+  width: 40%;
+ 
+  margin: auto;
   border: solid 4px #FF3300;
+}
+.program h6 {
+	font-size: 20px;
 }
 
  #notes_personal{
@@ -82,14 +84,13 @@
 	
 }
 
+
 #Programming-projects {
-	margin-right: 200px;
-	margin-left: 260px;
+	margin: auto;
+	margin-top: -40px;
 	border-radius: 5px;
 	width: 140px;
 	height: 140px;
-	margin-top: 20px;
-	margin-bottom: 20px;
 	display: block;
 	background-color: #585858;
 	text-align: center;
@@ -104,9 +105,8 @@
 	
 }
 #Co-op-projects {
-	margin-right: -80px;
-	margin-left: -160px;
-	display: inline-block;
+	margin: auto;
+	display: block;
 	width: 140px;
 	height: 140px;
 	border-radius: 5px;
@@ -123,10 +123,9 @@
 	color: black;
 }
 #University-projects {
-	margin-right: 180px;
-	margin-left: 175px;
+	margin: auto;
 	background-color: #FF0000;
-	display: inline-block;
+	display: block;
 	width: 140px;
 	height: 140px;
 	border-radius: 5px;
@@ -290,4 +289,10 @@ footer h1 {
 	font-size: 15px;
 	text-align: center;
 	color: #f2f2f2;
+}
+
+.program {
+	width: 1000px;
+	text-align: center;
+	margin: auto;
 }

@@ -273,28 +273,6 @@ Full-Width Styles
 
 }
 
-<<<<<<< HEAD
-=======
-#project_tagline {
-  display: inline;
-  padding: 37px;
-  color: #fff;
-  font-size: 24px;
-  font-weight: 300;
-  background: none;
-  text-shadow: #111 0px 0px 10px;
-}
-
-#downloads {
-  position: absolute;
-  width: 210px;
-  z-index: 10;
-  bottom: -40px;
-  right: 0;
-  height: 70px;
-  background: url('../images/icon_download.png') no-repeat 0% 90%;
-}
->>>>>>> origin/gh-pages
 
 #main_content_wrap {
   background: #f2f2f2;
